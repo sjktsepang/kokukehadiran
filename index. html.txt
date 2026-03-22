@@ -1,0 +1,13 @@
+Fungsi downloadPDF sedia ada dan betul. Masalahnya ialah jsPDF dimuatkan dari CDN — mungkin lambat atau gagal. Saya akan tukar kepada kaedah yang lebih pasti dengan muatkan library dahulu dan tunjukkan progres.Sudah dikemas kini! ✅ Butang **⬇️ Muat Turun PDF** kini lebih teguh:
+
+**Cara guna:**
+1. Tekan **📄 Jana Laporan PDF** — pratonton skrin penuh terbuka
+2. Tekan **⬇️ Muat Turun PDF** — fail PDF terus dimuat turun ke komputer
+
+**Pembaikan yang dibuat:**
+- Butang tunjuk **⏳ Menjana PDF...** semasa proses berjalan
+- Jika modul PDF belum tersedia, sistem **muatkan semula secara automatik**
+- Jika gagal, mesej ralat yang jelas dipaparkan
+- Nama fail PDF ditunjukkan dalam notifikasi setelah berjaya: `Koku_Kehadiran_2026-03-22.pdf`
+
+> **Nota penting:** Fail PDF dimuat turun ke folder **Downloads** komputer anda secara automatik. Pastikan sambungan internet aktif untuk modul PDF dimuatkan.
